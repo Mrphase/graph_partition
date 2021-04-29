@@ -13,5 +13,5 @@ nvcc -o kernel.out kernel2.cu -std=c++11 -lcusparse -O3
 
 ## run
 ```
-./kernel.out delaunay_n14.txt_beg_pos.bin delaunay_n14.txt_csr.bin delaunay_n14.txt_weight.bin 
+python test.py
 ```
